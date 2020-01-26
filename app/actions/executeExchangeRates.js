@@ -1,6 +1,6 @@
 const https = require('https');
 const fs = require('fs');
-
+//local
 export default function getExchangeRates() {
   const file = fs.createWriteStream('./file.xml');
   const request = https.get(
