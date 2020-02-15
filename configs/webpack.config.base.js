@@ -20,6 +20,7 @@ export default {
             cacheDirectory: true
           }
         }
+<<<<<<< HEAD
       },
       {test: /.jsx$/ , loader:'babel-loader', exclude: '/node_modules/'},
       {test: /\.js$/ , loader:'babel-loader', exclude: '/node_modules/'},
@@ -28,6 +29,9 @@ export default {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+=======
+      }
+>>>>>>> 2dfcfc6694269c7cafeb24463636bb7e8019f8cb
     ]
   },
 
@@ -41,7 +45,11 @@ export default {
    * Determine the array of extensions that should be used to resolve modules.
    */
   resolve: {
+<<<<<<< HEAD
     extensions: ['.js', '.jsx', '.json','.ts'],
+=======
+    extensions: ['.js', '.jsx', '.json'],
+>>>>>>> 2dfcfc6694269c7cafeb24463636bb7e8019f8cb
     modules: [path.join(__dirname, '..', 'app'), 'node_modules']
   },
 

@@ -250,8 +250,11 @@
     "testcafe": "^1.6.1",
     "testcafe-browser-provider-electron": "^0.0.13",
     "testcafe-react-selectors": "^3.3.0",
+<<<<<<< HEAD
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
+=======
+>>>>>>> 2dfcfc6694269c7cafeb24463636bb7e8019f8cb
     "url-loader": "^3.0.0",
     "webpack": "^4.41.2",
     "webpack-bundle-analyzer": "^3.6.0",
@@ -264,7 +267,10 @@
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@hot-loader/react-dom": "^16.11.0",
     "antd": "^3.26.6",
+<<<<<<< HEAD
     "aws-sdk": "^2.615.0",
+=======
+>>>>>>> 2dfcfc6694269c7cafeb24463636bb7e8019f8cb
     "connected-react-router": "^6.6.1",
     "core-js": "^3.5.0",
     "devtron": "^1.4.0",
@@ -284,8 +290,12 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
+<<<<<<< HEAD
     "source-map-support": "^0.5.16",
     "sqlite3": "^4.1.1"
+=======
+    "source-map-support": "^0.5.16"
+>>>>>>> 2dfcfc6694269c7cafeb24463636bb7e8019f8cb
   },
   "devEngines": {
     "node": ">=7.x",
