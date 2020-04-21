@@ -2,10 +2,11 @@ import 'antd/dist/antd.css';
 
 import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
+import { Link } from 'react-router-dom';
 import styles from './Sidebar.css';
-import SidebarPage from '../containers/SidebarPage';
+import routes from '../constants/routes.json';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Sider } = Layout;
 
 export default class Sidebar extends React.Component<Props> {
   props: Props;
@@ -17,10 +18,14 @@ export default class Sidebar extends React.Component<Props> {
           <div className="logo" />
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">
-              <span className="nav-text">Orders</span>
+              <Link to={routes.ORDERS}>
+                <span className="nav-text">Orders</span>
+              </Link>
             </Menu.Item>
             <Menu.Item key="2">
-              <span className="nav-text">Clients</span>
+              <Link to={routes.CLIENTS}>
+                <span className="nav-text">Clients</span>
+              </Link>
             </Menu.Item>
             <Menu.Item key="3">
               <Icon type="upload" />
